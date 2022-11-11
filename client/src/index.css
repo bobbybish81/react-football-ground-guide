@@ -1,0 +1,32 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p em, img, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, p,
+article, aside, footer, header, nav, section {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+body {
+  line-height:0.5;
+  font-family: system-ui;
+}
+
+.header {
+  width: 100vw;
+	height: 5rem;
+	display: flex;
+	justify-content: center;
+  background-color: #37003c;
+  font-size: 1.5rem;
+  color: #fff;
+	position: fixed;
+  top: 0;
+  z-index: 99;
+}
+
+ul {
+	text-align: right;
+}
