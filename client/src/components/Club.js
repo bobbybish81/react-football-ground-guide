@@ -2,10 +2,11 @@
 import Review from './Review';
 
 function Club({clubData}) {
-  console.log('clubData:', clubData[0])
   const imageName = clubData[0]?.club.replaceAll(' ', '_');
   const reviews = clubData[0]?.details.reviews;
-  console.log('reviews:', reviews)
+  
+if (imageName) {
+
   return (
     <>
     <main className="club-data-container">
@@ -41,6 +42,7 @@ function Club({clubData}) {
     </main>
     </>
   )
+}
 }
 
 export default Club
